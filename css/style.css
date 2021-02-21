@@ -52,7 +52,7 @@ body{
 
 /* tablet second */
 @media only screen and (min-width: 400px) {
-
+     
     .title, .google{
         color: #654321;
     }   
@@ -100,7 +100,11 @@ body{
 
 /* desktop last */
 @media only screen and (min-width: 1000px) {
-
- 
+    .title{
+        font-size: 5rem;
+    }
+    body{
+        background-color: rgb(255, 249, 241);
+    }
     
 }
